@@ -1,7 +1,7 @@
 /**
  * This source file is subject to the license that is bundled with this package in the file LICENSE.
  */
-@SuppressWarnings("all")
+
 public class Person {
     protected String firstName;
     protected String lastName;
@@ -11,7 +11,5 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public String sortName() {
-        return String.format("%s %s", firstName, lastName);
-    }
+
 }
